@@ -1,0 +1,93 @@
+.logo{
+    height: 50%;
+    margin-left: 28px;
+    margin-top: 30px;
+    padding-right: 10px;
+    width: 85%;
+}
+.navbar-nav{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:greenyellow;
+}
+.thumbnail{
+    height: 140%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.container{
+    height: 150%;
+}
+.col-sm-4 .thumbnail{
+    height: 300px;
+    margin-bottom: 35px;
+}
+
+.fluid{
+    height: 700px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+li {
+    float: left;
+
+    text-decoration: none;
+    display: block;
+}
+ li a{
+     display: block;
+     padding: 8px;
+     color: black;
+     font-size: 20px ;
+ }
+ .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:rgb(224, 24, 24);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 60px;;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-color: rgb(0, 255, 179);
+    margin-top: 45px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
